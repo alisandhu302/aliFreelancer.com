@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Web Developer, Thumbnail & QR Code Designer</title>
+    <style>
+	/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+/* About Section */
+#about {
+    background-color: #ecf0f1;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    color: #3498db;
+}
+
+   
+	#skills {
+    background-color: #ecf0f1;
+  
+    padding: 60px 0;
+    text-align: center;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+#skills li {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+ #skills ul {
+        flex-direction: column;
+    }
+
+    #skills li {
+        width: 100%;
+        text-align: center;
+    }
+	
+#Experience {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+.Experience {
+    margin-bottom: 40px;
+}
+
+.Experience h3 {
+    color: #3498db;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ecf0f1;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #2980b9;
+}
+
+#contact #responseMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .service {
+        margin-bottom: 30px;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a Web Developer, Thumbnail Designer, QR Code Designer, and Logo Designer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills </a></li>
+                    <li><a href="#Experience">Work Experience </a></li>
+                    <li><a href="#contact">Contact Us </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a versatile creative professional specializing in Web Development, Thumbnail Design, QR Code Design, and Logo Design. I am passionate about building interactive websites and designing eye-catching visuals that engage users. I always strive to exceed expectations and deliver high-quality work.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>I create responsive websites using HTML, CSS, JavaScript, and modern frameworks like React and Node.js. My goal is to make websites that are user-friendly, fast, and visually appealing.</p>
+            </div>
+            <div class="service">
+                <h3>Thumbnail Design</h3>
+                <p>As a thumbnail designer, I craft custom thumbnails for YouTube, blogs, and social media to grab attention and increase clicks. I ensure each design is impactful and relevant to the content.</p>
+            </div>
+            <div class="service">
+                <h3>QR Code Design</h3>
+                <p>I design creative and customizable QR codes that align with your brand. QR codes are a great way to engage users and make your website, product, or service easily accessible.</p>
+            </div>
+        </div>
+    </section>
+	<section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                       <h3 style="margin-top:4px;">Web Development</h3>			
+                <li>HTML & CSS & JAVASCRIPT & REACT.JS & NODE.JS and bootstrap etc (Responsive Web Design)</li>			
+                       <h3 style="margin-top:4px;">DESIGNING</h3>			
+				   
+                <li> THUMBNAIL DESIGN</li>
+                <li>QR CODE DESIGN</li>
+                <li>DOCUMENT CONVERSION</li>
+               
+            </ul>
+        </div>
+    </section>
+	<!-- Work Experience   -->
+	  <section id="Experience">
+        <div class="container">
+            <h2>Work Experience:</h2>
+            <div class="Experience">
+                <h3>Web Development</h3>
+                <p>[enter text here]</p>
+            </div>
+            <div class="Experience">
+                <h3>Thumbnail Design</h3>
+                <p>As a thumbnail designer, I craft custom thumbnails for YouTube, blogs, and social media to grab attention and increase clicks. I ensure each design is impactful and relevant to the content.</p>
+            </div>
+            <div class="Experience">
+                <h3>QR Code Design</h3>
+                <p>I design creative and customizable QR codes that align with your brand. QR codes are a great way to engage users and make your website, product, or service easily accessible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to work with me or have any questions, feel free to contact me!</p>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" >
+                <input type="email" id="email" placeholder="Your Email" >
+                <textarea id="message" placeholder="Your Message" ></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="responseMessage"></p>
+            <button id="downloadButton">Download My Portfolio</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ali Ahmad Sandhu. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>// JavaScript for form handling and submission
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Get form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Simple validation
+    if (name && email && message) {
+        // Show success message
+        document.getElementById('responseMessage').textContent = "Thank you, " + name + "! Your message has been sent.";
+        document.getElementById('responseMessage').style.color = "green";
+    } else {
+        // Show error message
+        document.getElementById('responseMessage').textContent = "Please fill out all fields";
+        document.getElementById('responseMessage').style.color = "red";
+    }
+
+    // Clear the form
+    document.getElementById('contact-form').reset();
+});
+
+// File download functionality
+document.getElementById('downloadButton').addEventListener('click', function() {
+    // For demonstration purposes, download a dummy portfolio file
+    const a = document.createElement('a');
+    a.href = 'assets/portfolio.pdf'; // Replace with your actual file path
+    a.download = 'Your_Portfolio.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+});
+</script>
+</body>
+</html>
